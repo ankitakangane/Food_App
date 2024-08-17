@@ -1,0 +1,36 @@
+.food_card{
+    width:300px;
+    border-radius:10px;
+    border:1px solid #ccc;
+    padding:5px 10px;
+    margin:10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position:relative;
+}
+.food_card:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: 0.3s;
+    transform:rotate(-1 dgs);
+}
+.food_icons{
+    height:30px;
+    width:40px;
+    object-fit:cover;
+    position:absolute;
+    right:20px;
+    top:20px;
+    background-color: #fff;
+}
+.food_title{
+    text-align: center;
+    font-size:25px;
+    font-weight: bold;
+   
+}
+.food_img{
+    width:100%;
+    margin-top: 10px;
+    border-radius:10px;
+    height:180px;
+    object-fit: cover;
+}
